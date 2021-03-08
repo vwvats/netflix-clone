@@ -1,0 +1,974 @@
+{
+  "inputs": {
+    "_snowpack/env.js": {
+      "bytes": 97,
+      "imports": []
+    },
+    "_snowpack/pkg/common/index-e66f0a38.js": {
+      "bytes": 8994,
+      "imports": []
+    },
+    "_snowpack/pkg/react.js": {
+      "bytes": 318,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/react-dom.js": {
+      "bytes": 127469,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/hoist-non-react-statics.cjs-8e0857e9.js": {
+      "bytes": 6114,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/styled-components.js": {
+      "bytes": 44204,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/hoist-non-react-statics.cjs-8e0857e9.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/global-styles.js": {
+      "bytes": 409,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/react-router-dom.js": {
+      "bytes": 68938,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/hoist-non-react-statics.cjs-8e0857e9.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/constants/routes.js": {
+      "bytes": 125,
+      "imports": []
+    },
+    "dist/components/accordion/styles/accordion.js": {
+      "bytes": 1760,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/accordion/index.js": {
+      "bytes": 1791,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/accordion/styles/accordion.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/card/styles/card.js": {
+      "bytes": 4127,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/card/index.js": {
+      "bytes": 3254,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/card/styles/card.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/jumbotron/styles/jumbotron.js": {
+      "bytes": 1314,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/jumbotron/index.js": {
+      "bytes": 1177,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/jumbotron/styles/jumbotron.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/footer/styles/footer.js": {
+      "bytes": 1056,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/footer/index.js": {
+      "bytes": 1185,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/footer/styles/footer.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/opt-form/styles/opt-form.js": {
+      "bytes": 1387,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/opt-form/index.js": {
+      "bytes": 981,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/opt-form/styles/opt-form.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/header/styles/header.js": {
+      "bytes": 4627,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/header/index.js": {
+      "bytes": 3198,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/header/styles/header.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/feature/styles/feature.js": {
+      "bytes": 639,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/feature/index.js": {
+      "bytes": 591,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/feature/styles/feature.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/form/styles/form.js": {
+      "bytes": 1821,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/form/index.js": {
+      "bytes": 1531,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/form/styles/form.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/profiles/styles/profiles.js": {
+      "bytes": 1186,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/profiles/index.js": {
+      "bytes": 1133,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/profiles/styles/profiles.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/loading/styles/loading.js": {
+      "bytes": 1759,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/loading/index.js": {
+      "bytes": 530,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/loading/styles/loading.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/player/styles/player.js": {
+      "bytes": 1525,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/player/index.js": {
+      "bytes": 1414,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/player/styles/player.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/index.js": {
+      "bytes": 619,
+      "imports": [
+        {
+          "path": "dist/components/accordion/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/card/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/jumbotron/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/footer/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/opt-form/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/header/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/feature/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/form/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/profiles/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/loading/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/player/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/fixtures/faqs.json.proxy.js": {
+      "bytes": 1760,
+      "imports": []
+    },
+    "dist/containers/faqs.js": {
+      "bytes": 1064,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/fixtures/faqs.json.proxy.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/fixtures/jumbo.json.proxy.js": {
+      "bytes": 715,
+      "imports": []
+    },
+    "dist/containers/jumbotron.js": {
+      "bytes": 767,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/fixtures/jumbo.json.proxy.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/containers/footer.js": {
+      "bytes": 2243,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/containers/header.js": {
+      "bytes": 550,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/constants/routes.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/pages/home.js": {
+      "bytes": 1341,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/containers/faqs.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/containers/jumbotron.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/containers/footer.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/containers/header.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/context/firebase.js": {
+      "bytes": 112,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/pages/signin.js": {
+      "bytes": 2277,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/context/firebase.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/containers/header.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/containers/footer.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/constants/routes.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/pages/signup.js": {
+      "bytes": 2645,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/context/firebase.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/containers/footer.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/containers/header.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/constants/routes.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/fusejs.js": {
+      "bytes": 41300,
+      "imports": []
+    },
+    "dist/containers/profiles.js": {
+      "bytes": 1057,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/constants/routes.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/containers/browse.js": {
+      "bytes": 4713,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/fusejs.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/constants/routes.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/context/firebase.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/containers/profiles.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/containers/footer.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/hooks/use-auth-listener.js": {
+      "bytes": 676,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/context/firebase.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/hooks/use-content.js": {
+      "bytes": 638,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/context/firebase.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/hooks/index.js": {
+      "bytes": 126,
+      "imports": [
+        {
+          "path": "dist/hooks/use-auth-listener.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/hooks/use-content.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/utils/selection-map.js": {
+      "bytes": 1006,
+      "imports": []
+    },
+    "dist/utils/index.js": {
+      "bytes": 61,
+      "imports": [
+        {
+          "path": "dist/utils/selection-map.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/pages/browse.js": {
+      "bytes": 447,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/containers/browse.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/hooks/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/utils/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/pages/index.js": {
+      "bytes": 191,
+      "imports": [
+        {
+          "path": "dist/pages/home.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pages/signin.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pages/signup.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pages/browse.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/helpers/routes.js": {
+      "bytes": 992,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/app.js": {
+      "bytes": 1273,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/constants/routes.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pages/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/hooks/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/helpers/routes.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "firebaseConfig.js": {
+      "bytes": 399,
+      "imports": []
+    },
+    "dist/index.js": {
+      "bytes": 838,
+      "imports": [
+        {
+          "path": "_snowpack/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/global-styles.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/app.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/context/firebase.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "firebaseConfig.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "dist/index.js",
+      "inputs": {
+        "_snowpack/env.js": {
+          "bytesInOutput": 100
+        },
+        "_snowpack/pkg/common/index-e66f0a38.js": {
+          "bytesInOutput": 7149
+        },
+        "_snowpack/pkg/react.js": {
+          "bytesInOutput": 68
+        },
+        "_snowpack/pkg/react-dom.js": {
+          "bytesInOutput": 124032
+        },
+        "_snowpack/pkg/common/hoist-non-react-statics.cjs-8e0857e9.js": {
+          "bytesInOutput": 3351
+        },
+        "_snowpack/pkg/styled-components.js": {
+          "bytesInOutput": 31785
+        },
+        "dist/global-styles.js": {
+          "bytesInOutput": 297
+        },
+        "_snowpack/pkg/react-router-dom.js": {
+          "bytesInOutput": 23034
+        },
+        "dist/constants/routes.js": {
+          "bytesInOutput": 50
+        },
+        "dist/components/accordion/styles/accordion.js": {
+          "bytesInOutput": 1519
+        },
+        "dist/components/accordion/index.js": {
+          "bytesInOutput": 786
+        },
+        "dist/components/index.js": {
+          "bytesInOutput": 0
+        },
+        "dist/components/card/styles/card.js": {
+          "bytesInOutput": 3499
+        },
+        "dist/components/card/index.js": {
+          "bytesInOutput": 1506
+        },
+        "dist/components/jumbotron/styles/jumbotron.js": {
+          "bytesInOutput": 1058
+        },
+        "dist/components/jumbotron/index.js": {
+          "bytesInOutput": 482
+        },
+        "dist/components/footer/styles/footer.js": {
+          "bytesInOutput": 816
+        },
+        "dist/components/footer/index.js": {
+          "bytesInOutput": 488
+        },
+        "dist/components/opt-form/styles/opt-form.js": {
+          "bytesInOutput": 1194
+        },
+        "dist/components/opt-form/index.js": {
+          "bytesInOutput": 418
+        },
+        "dist/components/header/styles/header.js": {
+          "bytesInOutput": 3864
+        },
+        "dist/components/header/index.js": {
+          "bytesInOutput": 1346
+        },
+        "dist/components/feature/styles/feature.js": {
+          "bytesInOutput": 493
+        },
+        "dist/components/feature/index.js": {
+          "bytesInOutput": 218
+        },
+        "dist/components/form/styles/form.js": {
+          "bytesInOutput": 1424
+        },
+        "dist/components/form/index.js": {
+          "bytesInOutput": 661
+        },
+        "dist/components/profiles/styles/profiles.js": {
+          "bytesInOutput": 962
+        },
+        "dist/components/profiles/index.js": {
+          "bytesInOutput": 487
+        },
+        "dist/components/loading/styles/loading.js": {
+          "bytesInOutput": 1541
+        },
+        "dist/components/loading/index.js": {
+          "bytesInOutput": 195
+        },
+        "dist/components/player/styles/player.js": {
+          "bytesInOutput": 1329
+        },
+        "dist/components/player/index.js": {
+          "bytesInOutput": 617
+        },
+        "dist/fixtures/faqs.json.proxy.js": {
+          "bytesInOutput": 1718
+        },
+        "dist/containers/faqs.js": {
+          "bytesInOutput": 522
+        },
+        "dist/fixtures/jumbo.json.proxy.js": {
+          "bytesInOutput": 660
+        },
+        "dist/containers/jumbotron.js": {
+          "bytesInOutput": 314
+        },
+        "dist/containers/footer.js": {
+          "bytesInOutput": 1219
+        },
+        "dist/containers/header.js": {
+          "bytesInOutput": 211
+        },
+        "dist/pages/home.js": {
+          "bytesInOutput": 585
+        },
+        "dist/pages/index.js": {
+          "bytesInOutput": 0
+        },
+        "dist/context/firebase.js": {
+          "bytesInOutput": 16
+        },
+        "dist/pages/signin.js": {
+          "bytesInOutput": 949
+        },
+        "dist/pages/signup.js": {
+          "bytesInOutput": 1152
+        },
+        "_snowpack/pkg/fusejs.js": {
+          "bytesInOutput": 15592
+        },
+        "dist/containers/profiles.js": {
+          "bytesInOutput": 489
+        },
+        "dist/containers/browse.js": {
+          "bytesInOutput": 2365
+        },
+        "dist/hooks/use-auth-listener.js": {
+          "bytesInOutput": 281
+        },
+        "dist/hooks/index.js": {
+          "bytesInOutput": 0
+        },
+        "dist/hooks/use-content.js": {
+          "bytesInOutput": 212
+        },
+        "dist/utils/selection-map.js": {
+          "bytesInOutput": 640
+        },
+        "dist/utils/index.js": {
+          "bytesInOutput": 0
+        },
+        "dist/pages/browse.js": {
+          "bytesInOutput": 126
+        },
+        "dist/helpers/routes.js": {
+          "bytesInOutput": 313
+        },
+        "dist/app.js": {
+          "bytesInOutput": 384
+        },
+        "firebaseConfig.js": {
+          "bytesInOutput": 334
+        },
+        "dist/index.js": {
+          "bytesInOutput": 224
+        }
+      },
+      "bytes": 243466
+    }
+  }
+}
