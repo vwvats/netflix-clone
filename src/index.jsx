@@ -6,7 +6,6 @@ import { FirebaseContext } from './context/firebase';
 import { firebaseConfig } from '../public/firebaseConfig';
 
 const config = firebaseConfig;
-
 const firebase = window.firebase.initializeApp(config);
 
 ReactDOM.render(

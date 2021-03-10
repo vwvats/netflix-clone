@@ -1,7 +1,7 @@
 {
   "name": "netflix-clone",
   "version": "1.0.0",
-  "description": "",
+  "description": "a netflix clone made with react",
   "main": "index.js",
   "scripts": {
     "start": "snowpack dev",
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "VW Vats",
   "license": "ISC",
   "devDependencies": {
     "@snowpack/plugin-react-refresh": "^2.4.0",

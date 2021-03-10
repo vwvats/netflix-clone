@@ -16,8 +16,8 @@ export function BrowseContainer({ slides }) {
     const { firebase } = useContext(FirebaseContext);
     
     const user = {
-        displayName: "Karl",
-        photoURL: "1"
+        displayName: "My Profile",
+        photoURL: "4"
     };
     
     useEffect(() => {
@@ -45,7 +45,7 @@ export function BrowseContainer({ slides }) {
         <>
         {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
         
-            <Header src="joker1" dontShowOnSmallViewPort>
+            <Header src="superman" dontShowOnSmallViewPort>
                 <Header.Frame>
                     <Header.Group>
                         <Header.Logo to={ROUTES.HOME} src="/images/misc/logo.svg" alt="Netflix" />
@@ -79,11 +79,9 @@ export function BrowseContainer({ slides }) {
                 </Header.Frame>
                 
                 <Header.Feature>
-                    <Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut>
+                    <Header.FeatureCallOut>Watch Man of Steel Now</Header.FeatureCallOut>
                     <Header.Text>
-                    Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham
-                    City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a
-                    futile attempt to feel like he's part of the world around him.
+                    An alien child is evacuated from his dying world and sent to Earth to live among humans. His peace is threatened, when other survivors of his home planet invade Earth.
                     </Header.Text>
                     <Header.PlayButton>Play</Header.PlayButton>
                 </Header.Feature>

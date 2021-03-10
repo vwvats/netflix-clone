@@ -1,3 +1,4 @@
 node_modules
 snowpack.config.js
 firebaseConfig.js
+seed.js
