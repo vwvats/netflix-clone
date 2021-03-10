@@ -53,7 +53,7 @@
       ]
     },
     "dist/global-styles.js": {
-      "bytes": 409,
+      "bytes": 635,
       "imports": [
         {
           "path": "_snowpack/pkg/styled-components.js",
@@ -101,7 +101,7 @@
       ]
     },
     "dist/components/card/styles/card.js": {
-      "bytes": 4127,
+      "bytes": 4128,
       "imports": [
         {
           "path": "_snowpack/pkg/styled-components.js",
@@ -583,7 +583,7 @@
       ]
     },
     "dist/containers/browse.js": {
-      "bytes": 4713,
+      "bytes": 4618,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -756,7 +756,7 @@
       ]
     },
     "firebaseConfig.js": {
-      "bytes": 399,
+      "bytes": 326,
       "imports": []
     },
     "dist/index.js": {
@@ -818,7 +818,7 @@
           "bytesInOutput": 31785
         },
         "dist/global-styles.js": {
-          "bytesInOutput": 297
+          "bytesInOutput": 523
         },
         "_snowpack/pkg/react-router-dom.js": {
           "bytesInOutput": 23034
@@ -836,7 +836,7 @@
           "bytesInOutput": 0
         },
         "dist/components/card/styles/card.js": {
-          "bytesInOutput": 3499
+          "bytesInOutput": 3500
         },
         "dist/components/card/index.js": {
           "bytesInOutput": 1506
@@ -935,7 +935,7 @@
           "bytesInOutput": 489
         },
         "dist/containers/browse.js": {
-          "bytesInOutput": 2365
+          "bytesInOutput": 2270
         },
         "dist/hooks/use-auth-listener.js": {
           "bytesInOutput": 281
@@ -962,13 +962,13 @@
           "bytesInOutput": 384
         },
         "firebaseConfig.js": {
-          "bytesInOutput": 334
+          "bytesInOutput": 267
         },
         "dist/index.js": {
           "bytesInOutput": 224
         }
       },
-      "bytes": 243466
+      "bytes": 243531
     }
   }
 }
